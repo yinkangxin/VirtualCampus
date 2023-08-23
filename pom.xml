@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.it</groupId>
+    <artifactId>VCampus</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>VCampusClient</module>
+        <module>VCampusServer</module>
+    </modules>
+
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+
+
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            &lt;!&ndash;编译插件&ndash;&gt;-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                &lt;!&ndash;插件名称&ndash;&gt;-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                &lt;!&ndash;插件版本&ndash;&gt;-->
+<!--                <version>3.10.1</version>-->
+<!--                &lt;!&ndash;插件配置信息&ndash;&gt;-->
+<!--                <configuration>-->
+<!--                    &lt;!&ndash;编译环境 JDK 版本&ndash;&gt;-->
+<!--                    <source>${maven.compiler.source}</source>-->
+<!--                    &lt;!&ndash;运行环境 JDK 版本&ndash;&gt;-->
+<!--                    <target>${maven.compiler.target}</target>-->
+<!--                    &lt;!&ndash;编码格式&ndash;&gt;-->
+<!--                    <encoding>utf-8</encoding>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
+</project>
